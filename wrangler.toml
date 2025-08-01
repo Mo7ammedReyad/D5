@@ -1,0 +1,10 @@
+name = "auth-worker"
+main = "index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "test"
+database_id = "b3ad23cf-64b2-488b-9371-0cd4bd398156" # قم بتعبئة هذا بعد إنشاء قاعدة البيانات
+
+[env.production]
